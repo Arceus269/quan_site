@@ -1,0 +1,256 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar-menu {
+    list-style-type: none;
+}
+
+.navbar-menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navbar-menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar-menu li a:hover {
+    color: #ccc;
+}
+
+.main-body {
+    padding: 20px;
+}
+
+.div-welcome {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.table-description p {
+    font-size: 20px;
+    margin: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+table th,
+table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #333;
+    color: #fff;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+progress {
+    width: 100%;
+}
+
+.table-legend-div {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.legend-item {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.legend-item span {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+
+.legend-item .passed {
+    background-color: #0f0;
+}
+
+.legend-item .failed {
+    background-color: #f00;
+}
+
+.legend-item .in-progress {
+    background-color: #00f;
+}
+
+
+/*phần css cho blog
+/* Add some margin to the top of the page */
+body {
+    margin-top: 50px;
+  }
+  
+  /* Style the header section */
+  .header {
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .navbar-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-menu li {
+    margin-right: 20px;
+  }
+  
+  .link-active {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .link-active:hover {
+    color: #ccc;
+  }
+  
+  /* Style the comment section */
+  .comments-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .div-comment-icon {
+    width: 100px;
+    height: 100px;
+    background-image: url('comment-icon.png');
+    background-size: cover;
+    margin-bottom: 30px;
+  }
+  
+  .chatbox-container {
+    width: 80%;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  #div-respond-form {
+    margin-bottom: 30px;
+  }
+  
+  #div-respond-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #div-respond-form input[type="text"],
+  #div-respond-form input[type="email"],
+  #div-respond-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+  
+  #div-respond-form textarea {
+    height: 150px;
+  }
+  
+  #div-respond-form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #div-respond-form input[type="submit"]:hover {
+    background-color: #444;
+  }
+  
+  .div-comment-section {
+    width: 100%;
+  }
+  
+  #comment-section-head {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #comment-section-body {
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  #comment-block {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  #author-thumbnail {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+  }
+  
+  #author-thumbnail-circle {
+    width: 100%;
+    height: 100%;
+    background-color: #ddd;
+  }
+  
+  #main {
+    flex: 1;
+  }
+  
+  #comment-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }

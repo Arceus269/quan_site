@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="windows-1251">
+        <title>Profile Card</title>
+        <link rel="stylesheet" href="style_3.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Blog with Comments</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        h2 {
+            color: #333;
+        }
+        #comment-form {
+            margin-top: 30px;
+        }
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        .comment {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
+        }
+        .comment p {
+            margin: 0;
+        }
+    </style>
+    </head>
+    <body>
+      <section class="header">
+        <div class="navbar">
+            <ul class="navbar-menu">
+                <li>
+                    <a href="index.cgi" class="link-active">
+                        Login
+                    </a>
+                </li>           
+                <li>
+                    <a href="table.cgi" class="link-active" target="_parent">
+                        Performance
+                    </a>
+                </li>
+                <li>
+                    <a href="profile.cgi" class="link-active" target="_parent">
+                        profile
+                    </a>
+                </li>
+                <li>
+                    <a href="blog.cgi" class="link-active">
+                        Blog
+                    </a>
+                </li>
+            </ul>
+        </div>
+        </section>
+    <div class="container">
+        <article>
+            <h2>My Blog Post</h2>
+            <p>This is my first blog post. Feel free to leave a comment below.</p>
+        </article>
+        <section id="comments">
+            <h2>Comments</h2>
+            <div class="comment">
+                <p><strong>John Doe</strong>: This is a great post!</p>
+<!--CONTENT-->
+            </div>
+        </section>
+        <section id="comment-form">
+            <h2>Leave a Comment</h2>
+<!--FORM-->
+        </section>
+    </div>
+    </body>
+</html>

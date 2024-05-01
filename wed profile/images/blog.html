@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="windows-1251">
+        <title>Profile Card</title>
+        <link rel="stylesheet" href="style_3.css">
+    </head>
+    <body>
+      <section class="header">
+        <div class="navbar">
+            <ul class="navbar-menu">
+                <li>
+                    <a href="index.html" class="link-active">
+                        Login
+                    </a>
+                </li>           
+                <li>
+                    <a href="table.html" class="link-active" target="_parent">
+                        Performance
+                    </a>
+                </li>
+                <li>
+                    <a href="profile.html" class="link-active" target="_parent">
+                        profile
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="link-active">
+                        Blog
+                    </a>
+                </li>
+            </ul>
+        </div>
+        </li>
+        <section class="main-body comments-div">
+            <div class="chatbox-container">
+                <div id="div-respond-form">
+                    <h3>Leave a Comment: </h3>
+                    <form action="blog.html" method="post" class="comment-form">
+                        <div>
+                            <label for="comment_author" class="required">Your name</label>
+                            <input name="user-name" type="text"placeholder="Full name" required="required">
+                        </div>
+                      
+                        <div>
+                            <label for="email" class="required">Your email</label>
+                            <input name="user-email" type="email" placeholder="user@domain.com" required="required">
+                        </div>
+                        
+                        <div>
+                            <label for="comment" class="required">Your message</label>
+                            <textarea name="user-comment" id="comment" rows="2" cols="250" placeholder="Comment here..." minlength="8" maxlength="4086" required="required"></textarea>
+                        </div>
+                     
+                      <input name="submit" type="submit" value="Submit comment"/>
+                  
+                    </form>
+                </div>
+                <div class="div-comment-section">
+                    <div id="comment-section-head">
+                        <h1>Comments</h1>
+                    </div>
+                    <div id="comment-section-body">
+                        <div id="comment-block">
+                            <div id="author-thumbnail">
+                                <a href="#">
+                                    <div id="author-thumbnail-circle"></div>
+                                </a>
+                            </div>
+                            <div id="main">
+                                <div id="comment-header">
+                                    <p>@username</p>
+                                </div>
+                                <div id="comment-content">
+                                    <p>This is where the comment lies</p>
+                                </div>
+                                <div id="comment-action-buttons"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!--CONTENT-->
+    </body>
+</html>
