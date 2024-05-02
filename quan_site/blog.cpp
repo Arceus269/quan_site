@@ -85,12 +85,14 @@ void get_form()
 			char* name = new char[1000000];
 			char* comment = new char[1000000];
 
+			cout << "<div class=\"comment\">";
 			while (!infile.eof())
 			{
 				infile.getline(name, 1000000);
 				infile.getline(comment, 1000000);
 				cout << "<p><strong>" << name << ": </strong>" << comment << "</p></div>";
 			}
+			cout << "</div>" << endl;
 			infile.close();
 		}
 	}
