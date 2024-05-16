@@ -19,6 +19,9 @@
     <None Include="..\wed profile\login.tmpl" />
     <None Include="..\wed profile\profile.tmpl" />
     <None Include="..\wed profile\table.tmpl" />
+    <None Include="..\wed profile\bank.tmpl">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="utils.cpp">
@@ -37,6 +40,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="blog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bank.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

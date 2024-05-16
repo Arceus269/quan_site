@@ -75,7 +75,7 @@
     <TargetExt>.cgi</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <TargetName>blog</TargetName>
+    <TargetName>bank</TargetName>
     <TargetExt>.cgi</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -135,6 +135,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <None Include="..\wed profile\bank.tmpl" />
     <None Include="..\wed profile\blog.tmpl" />
     <None Include="..\wed profile\login.tmpl" />
     <None Include="..\wed profile\profile.tmpl" />
@@ -143,6 +144,7 @@
   <ItemGroup>
     <ClCompile Include="..\wed profile\cgi.cpp" />
     <ClCompile Include="..\wed profile\index.cpp" />
+    <ClCompile Include="bank.cpp" />
     <ClCompile Include="blog.cpp" />
     <ClCompile Include="profile.cpp" />
     <ClCompile Include="table.cpp" />

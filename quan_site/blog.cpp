@@ -10,6 +10,7 @@ using namespace std;
 void get_form();
 void make_comment();
 
+/*/
 int main()
 {
 	setlocale(LC_ALL, "rus");
@@ -96,3 +97,4 @@ void get_form()
 			infile.close();
 		}
 	}
+	*/
