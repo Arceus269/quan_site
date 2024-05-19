@@ -5,42 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bank Form</title>
     <link rel="stylesheet" href="bank.css">
+    <style>
+  table {
+    border-collapse: separate;
+    border-spacing: 0;
+  }
+  th, td {
+    padding: 10px 15px;
+  }
+  thead {
+    background: #395870;
+    color: #fff;
+  }
+  tbody tr:nth-child(even) {
+    background: #f0f0f2;
+  }
+  td {
+    border-bottom: 1px solid #cecfd5;
+    border-right: 1px solid #cecfd5;
+  }
+  td:first-child {
+    border-left: 1px solid #cecfd5;
+  }
+</style>
 </head>
 <body>
     <h1>Bank Form</h1>
-    <!-- Form để nhập dữ liệu -->
-    <form action="bank.cgi" method="post">
-        <label for="surname">Surname:</label>
-        <input type="text" id="surname" name="surname" required><br>
-        
-        <label for="gender">Gender:</label>
-        <select name="gender" title="gender-droplist" required>
-            <option value="male">Male</option>
-            <option value="female">Female</option>
-        </select><br>
-        
-        <label for="age">Age:</label>
-        <input type="number" id="age" name="age" required><br>
-        
-        <label for="workplace">Workplace:</label>
-        <input type="text" id="workplace" name="workplace" required><br>
-        
-        <label for="income">Income:</label>
-        <input type="number" id="income" name="income" required><br>
-        
-        <label for="purpose"><p>Purpose</p></label>
-        <select name="purpose" title="purpose-droplist" required>
-            <option value="credit">Credit</option>
-            <option value="debit">Debit</option>
-        </select><br>
-        
-        <input type="submit" value="Submit">
-    </form>
-
-    <!-- Phần hiển thị thông tin khách hàng -->
     <div id="customer-info">
-        <!-- Thông tin khách hàng sẽ được in ra từ CGI script -->
-        <!-- CGI script sẽ thực hiện việc in ra dữ liệu ở đây -->
+<!--FORM-->
     </div>
 </body>
 </html>
